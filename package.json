@@ -1,0 +1,37 @@
+{
+  "name": "gpool-diff-minimap",
+  "main": "./lib/main.coffee",
+  "version": "0.0.0",
+  "description": "A minimap binding for the gpool-diff package",
+  "author": "thislooksfun",
+  "keywords": [
+    "gpool",
+    "repo",
+    "gpool",
+    "diff",
+    "minimap"
+  ],
+  "repository": "https://github.com/thislooksfun/gpool-diff-minimap",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "gpool-base": {
+      "versions": {
+        "1.0.0": "consumeGpoolServiceV1"
+      }
+    },
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-dependencies": "^1.0.3"
+  },
+  "package-dependencies": {
+    "gpool-base": "versions not supported yet"
+  }
+}

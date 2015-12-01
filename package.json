@@ -1,7 +1,7 @@
 {
   "name": "gpool-diff-minimap",
   "main": "./lib/main.coffee",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A minimap binding for the gpool-diff package",
   "author": "thislooksfun",
   "keywords": [
